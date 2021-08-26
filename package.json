@@ -1,0 +1,47 @@
+{
+  "name": "@tremho/jove-app-template",
+  "main": "app/app.ts",
+  "displayName": "Jove App Template",
+  "templateType": "App template",
+  "version": "8.0.3",
+  "description": "Blank template for Jove supported NativeScript apps using TypeScript",
+  "author": "Tremho Berserker Development, LLC <tremhoberserkerdevelopment@gmail.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "jove",
+    "nstudio",
+    "nativescript",
+    "mobile",
+    "{N}",
+    "tns",
+    "template",
+    "category-general"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tremho/jove-app-template.git"
+  },
+  "homepage": "https://github.com/tremho/jove-app-template.git",
+  "bugs": {
+    "url": "https://github.com/tremho/jove-app-template/issues"
+  },
+  "dependencies": {
+    "@nativescript/core": "~8.0.0",
+    "@nativescript/theme": "~3.0.1",
+    "@tremho/jove-common": "^0.6.9-pre-release",
+    "@tremho/jove-mobile": "^0.6.9-pre-release",
+    "base64-js": "^1.5.1"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.0.0",
+    "@nativescript/ios": "8.0.0",
+    "@nativescript/types": "~8.0.0",
+    "@nativescript/webpack": "5.0.0-beta.4",
+    "typescript": "~4.0.0"
+  },
+  "private": "true",
+  "readme": "NativeScript Application"
+}
