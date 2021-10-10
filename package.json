@@ -3,7 +3,7 @@
   "main": "app/app.ts",
   "displayName": "Jove App Template",
   "templateType": "App template",
-  "version": "8.0.2-pre-release.2",
+  "version": "8.0.3-pre-release.1",
   "description": "Blank template for Jove supported NativeScript apps using TypeScript",
   "author": "Tremho Berserker Development, LLC <tremhoberserkerdevelopment@gmail.com>",
   "license": "ISC",
