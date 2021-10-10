@@ -1,2 +1,2 @@
 // @ts-ignore
-require('./tbAppBack')
+require('./joveAppBack')
