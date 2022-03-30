@@ -3,7 +3,7 @@
   "main": "app/app.ts",
   "displayName": "Jove App Template",
   "templateType": "App template",
-  "version": "8.1.0-pre-release.1",
+  "version": "8.2.3-pre-release.1",
   "description": "Blank template for Jove supported NativeScript apps using TypeScript",
   "author": "Tremho Berserker Development, LLC <tremhoberserkerdevelopment@gmail.com>",
   "license": "ISC",
@@ -28,8 +28,11 @@
   "bugs": {
     "url": "https://github.com/tremho/jove-app-template/issues"
   },
+  "scripts": {
+    "postinstall": "mkdir -p src/assets && mkdir -p src/scss && cd node_modules && ln -sf @nativescript/core/image-source image-source && cd @tremho/jove-mobile && npm install"
+  },
   "dependencies": {
-    "@nativescript/core": "~8.0.0",
+    "@nativescript/core": "~8.2.0",
     "@nativescript/theme": "~3.0.1",
     "@tremho/jove-common": "^0.6.9-pre-release",
     "@tremho/jove-mobile": "^0.6.9-pre-release",
@@ -37,11 +40,14 @@
     "base64-js": "^1.5.1"
   },
   "devDependencies": {
-    "@nativescript/android": "8.0.0",
-    "@nativescript/ios": "8.0.0",
-    "@nativescript/types": "~8.0.0",
+    "@nativescript/android": "8.2.0",
+    "@nativescript/ios": "8.2.0",
+    "@nativescript/types": "~8.2.0",
     "@nativescript/webpack": "^5.0.0",
-    "typescript": "~4.0.0"
+    "typescript": "~4.5.5"
+  },
+  "scripts": {
+    "postinstall": "mkdir -p src/assets && mkdir -p src/scss && cd node_modules && ln -sf @nativescript/core/image-source image-source && cd @tremho/jove-mobile && npm install"
   },
   "readme": "NativeScript Application"
 }

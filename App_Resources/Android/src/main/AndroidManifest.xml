@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 		  xmlns:tools = "http://schemas.android.com/tools"
 	package="__PACKAGE__"
-	android:versionCode="10032"
-	android:versionName="1.0.32">
+	android:versionCode="0000000000"
+	android:versionName="0.0.0">
 
 	<supports-screens
 		android:smallScreens="true"
@@ -32,6 +32,8 @@
 
 		<activity
 			android:name="com.tns.NativeScriptActivity"
+			android:exported="true"
+			android:hardwareAccelerated="true"
 			android:screenOrientation="sensor"
 			android:label="@string/title_activity_kimera"
 			android:configChanges="keyboardHidden|orientation|screenSize"

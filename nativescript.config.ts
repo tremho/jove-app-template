@@ -2,7 +2,7 @@
 import { NativeScriptConfig } from '@nativescript/core';
 
 export default {
-  id: 'com.stormmason.dow',
+  id: 'com.tremho.jove',
   appPath: 'app',
   appResourcesPath: 'App_Resources',
   android: {

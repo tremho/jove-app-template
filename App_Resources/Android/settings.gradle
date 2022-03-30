@@ -21,12 +21,16 @@ task replaceSettings {
             defaultConfig {
                 applicationId = "__appId__"
 
-                if (__minSdkVersion__) {
+                if(__minSdkVersion__) {
                     minSdkVersion = __minSdkVersion__
                 }
-
-                if (__targetSdkVersion__) {
+                if(__targetSdkVersion__) {
                     targetSdkVersion = __targetSdkVersion__
+                }
+                if(__compileSdkVersion__) {
+                    compileSdkVersion = __compileSdkVersion__
+                } else {
+                    compileSdkVersion=31
                 }
             }
         }"""
