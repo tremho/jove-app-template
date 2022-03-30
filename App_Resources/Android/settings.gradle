@@ -27,11 +27,8 @@ task replaceSettings {
                 if(__targetSdkVersion__) {
                     targetSdkVersion = __targetSdkVersion__
                 }
-                if(__compileSdkVersion__) {
-                    compileSdkVersion = __compileSdkVersion__
-                } else {
-                    compileSdkVersion=31
-                }
+
+                compileSdkVersion=31
             }
         }"""
 
